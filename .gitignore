@@ -1,0 +1,30 @@
+# Local browser/session data
+.playwright*/
+**/.playwright*/
+profiles/
+**/profiles/
+*Profile*/
+**/user-data*/
+**/storage-state*.json
+**/storageState*.json
+**/*cookies*.json
+**/*.har
+**/trace*.zip
+# Generated output and dependencies
+outputs/
+work/
+node_modules/
+**/node_modules/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.yaml
+*.local.yml
