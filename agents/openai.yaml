@@ -1,0 +1,4 @@
+interface:
+  display_name: "Browser Tasks and Screenshots"
+  short_description: "Browse sites with Playwright and save PNG screenshots"
+  default_prompt: "Use the persistent Playwright browser profile to open the requested site, handle manual sign-in when needed, and save requested screenshots as PNGs in outputs."
